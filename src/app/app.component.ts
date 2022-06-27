@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ejercicioMatslider';
+  slider1=0;
+  slider2=0;
+  slider3=0;
+  suma=0;
+  
+  cambiar() {
+    this.suma = this.slider1 + this.slider2 + this.slider3;    
+  }
+
 }
